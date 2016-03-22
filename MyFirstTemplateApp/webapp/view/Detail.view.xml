@@ -1,0 +1,47 @@
+<mvc:View controllerName="mi first app with template.controller.Detail" xmlns:mvc="sap.ui.core.mvc" xmlns:semantic="sap.m.semantic"
+	xmlns="sap.m">
+	<semantic:DetailPage busy="{detailView>/busy}" busyIndicatorDelay="{detailView>/delay}" id="page" navButtonPress="onNavBack"
+		showNavButton="{device>/system/phone}" title="{i18n>detailTitle}">
+		<semantic:content>
+			<ObjectHeader id="objectHeader" number="{ path: 'GrossAmount', formatter: '.formatter.currencyValue' }" numberUnit="{CurrencyCode}"
+				title="{CustomerName}">
+				<attributes>
+					<ObjectAttribute text="{CustomerID}" title="{i18n>customerID}"></ObjectAttribute>
+				</attributes>
+			</ObjectHeader>
+			<IconTabBar class="sapUiResponsiveContentPadding" id="iconTabBar">
+				<items>
+					<IconTabFilter icon="sap-icon://hint" id="iconTabBarFilter1" tooltip="{i18n>detailIconTabBarInfo}"></IconTabFilter>
+					<IconTabFilter icon="sap-icon://attachment" id="iconTabBarFilter2" tooltip="{i18n>detailIconTabBarAttachments}"></IconTabFilter>
+				</items>
+			</IconTabBar>
+			<Table busyIndicatorDelay="{detailView>/lineItemTableDelay}" class="sapUiResponsiveMargin" id="lineItemsList" items="{ToLineItems}"
+				noDataText="{i18n>detailLineItemTableNoDataText}" updateFinished="onListUpdateFinished" width="auto">
+				<headerToolbar>
+					<Toolbar id="lineItemsToolbar">
+						<Title id="lineItemsHeader" text="{detailView>/lineItemListTitle}"/>
+					</Toolbar>
+				</headerToolbar>
+				<columns>
+					<Column>
+						<Text text="{i18n>detailLineItemTableIDColumn}"/>
+					</Column>
+					<Column demandPopin="true" hAlign="Right" minScreenWidth="Tablet">
+						<Text text="{i18n>detailLineItemTableUnitNumberColumn}"/>
+					</Column>
+				</columns>
+				<items>
+					<ColumnListItem>
+						<cells>
+							<ObjectIdentifier text="{ItemPosition}" title="{ProductID}"/>
+							<ObjectNumber number="{ path: 'GrossAmount', formatter: '.formatter.currencyValue' }" unit="{CurrencyCode}"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+			</Table>
+		</semantic:content>
+		<semantic:sendEmailAction>
+			<semantic:SendEmailAction id="shareEmail" press="onShareEmailPress"/>
+		</semantic:sendEmailAction>
+	</semantic:DetailPage>
+</mvc:View>

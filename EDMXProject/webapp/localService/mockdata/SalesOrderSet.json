@@ -1,0 +1,321 @@
+[{
+	"SalesOrderID": "SalesOrderID 1",
+	"Note": "Note 1",
+	"NoteLanguage": "NoteLanguage 1",
+	"CustomerID": "CustomerID 1",
+	"CustomerName": "CustomerName 1",
+	"CurrencyCode": "CurrencyCode 1",
+	"GrossAmount": 4546.59,
+	"NetAmount": 5895.43,
+	"TaxAmount": 4104.18,
+	"LifecycleStatus": "LifecycleStatus 1",
+	"LifecycleStatusDescription": "LifecycleStatusDescription 1",
+	"BillingStatus": "BillingStatus 1",
+	"BillingStatusDescription": "BillingStatusDescription 1",
+	"DeliveryStatus": "DeliveryStatus 1",
+	"DeliveryStatusDescription": "DeliveryStatusDescription 1",
+	"CreatedAt": "/Date(1274905049000)/",
+	"ChangedAt": "/Date(974146649000)/",
+	"__metadata": {
+		"uri": "SalesOrderSet('SalesOrderID 1')",
+		"type": "/IWBEP/GWSAMPLE_BASIC.SalesOrder"
+	},
+	"ToBusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 1')/ToBusinessPartner"
+		}
+	},
+	"ToLineItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 1')/ToLineItems"
+		}
+	}
+}, {
+	"SalesOrderID": "SalesOrderID 2",
+	"Note": "Note 2",
+	"NoteLanguage": "NoteLanguage 2",
+	"CustomerID": "CustomerID 2",
+	"CustomerName": "CustomerName 2",
+	"CurrencyCode": "CurrencyCode 2",
+	"GrossAmount": 2981.19,
+	"NetAmount": 3416.42,
+	"TaxAmount": 1160.19,
+	"LifecycleStatus": "LifecycleStatus 2",
+	"LifecycleStatusDescription": "LifecycleStatusDescription 2",
+	"BillingStatus": "BillingStatus 2",
+	"BillingStatusDescription": "BillingStatusDescription 2",
+	"DeliveryStatus": "DeliveryStatus 2",
+	"DeliveryStatusDescription": "DeliveryStatusDescription 2",
+	"CreatedAt": "/Date(1114201049000)/",
+	"ChangedAt": "/Date(1482869849000)/",
+	"__metadata": {
+		"uri": "SalesOrderSet('SalesOrderID 2')",
+		"type": "/IWBEP/GWSAMPLE_BASIC.SalesOrder"
+	},
+	"ToBusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 2')/ToBusinessPartner"
+		}
+	},
+	"ToLineItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 2')/ToLineItems"
+		}
+	}
+}, {
+	"SalesOrderID": "SalesOrderID 3",
+	"Note": "Note 3",
+	"NoteLanguage": "NoteLanguage 3",
+	"CustomerID": "CustomerID 3",
+	"CustomerName": "CustomerName 3",
+	"CurrencyCode": "CurrencyCode 3",
+	"GrossAmount": 6912.76,
+	"NetAmount": 561.95,
+	"TaxAmount": 7467.4,
+	"LifecycleStatus": "LifecycleStatus 3",
+	"LifecycleStatusDescription": "LifecycleStatusDescription 3",
+	"BillingStatus": "BillingStatus 3",
+	"BillingStatusDescription": "BillingStatusDescription 3",
+	"DeliveryStatus": "DeliveryStatus 3",
+	"DeliveryStatusDescription": "DeliveryStatusDescription 3",
+	"CreatedAt": "/Date(1350764249000)/",
+	"ChangedAt": "/Date(1115237849000)/",
+	"__metadata": {
+		"uri": "SalesOrderSet('SalesOrderID 3')",
+		"type": "/IWBEP/GWSAMPLE_BASIC.SalesOrder"
+	},
+	"ToBusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 3')/ToBusinessPartner"
+		}
+	},
+	"ToLineItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 3')/ToLineItems"
+		}
+	}
+}, {
+	"SalesOrderID": "SalesOrderID 4",
+	"Note": "Note 4",
+	"NoteLanguage": "NoteLanguage 4",
+	"CustomerID": "CustomerID 4",
+	"CustomerName": "CustomerName 4",
+	"CurrencyCode": "CurrencyCode 4",
+	"GrossAmount": 6918.16,
+	"NetAmount": 5387.53,
+	"TaxAmount": 1620.04,
+	"LifecycleStatus": "LifecycleStatus 4",
+	"LifecycleStatusDescription": "LifecycleStatusDescription 4",
+	"BillingStatus": "BillingStatus 4",
+	"BillingStatusDescription": "BillingStatusDescription 4",
+	"DeliveryStatus": "DeliveryStatus 4",
+	"DeliveryStatusDescription": "DeliveryStatusDescription 4",
+	"CreatedAt": "/Date(1504642649000)/",
+	"ChangedAt": "/Date(1273004249000)/",
+	"__metadata": {
+		"uri": "SalesOrderSet('SalesOrderID 4')",
+		"type": "/IWBEP/GWSAMPLE_BASIC.SalesOrder"
+	},
+	"ToBusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 4')/ToBusinessPartner"
+		}
+	},
+	"ToLineItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 4')/ToLineItems"
+		}
+	}
+}, {
+	"SalesOrderID": "SalesOrderID 5",
+	"Note": "Note 5",
+	"NoteLanguage": "NoteLanguage 5",
+	"CustomerID": "CustomerID 5",
+	"CustomerName": "CustomerName 5",
+	"CurrencyCode": "CurrencyCode 5",
+	"GrossAmount": 7487.99,
+	"NetAmount": 5593.3,
+	"TaxAmount": 1396.08,
+	"LifecycleStatus": "LifecycleStatus 5",
+	"LifecycleStatusDescription": "LifecycleStatusDescription 5",
+	"BillingStatus": "BillingStatus 5",
+	"BillingStatusDescription": "BillingStatusDescription 5",
+	"DeliveryStatus": "DeliveryStatus 5",
+	"DeliveryStatusDescription": "DeliveryStatusDescription 5",
+	"CreatedAt": "/Date(1003522649000)/",
+	"ChangedAt": "/Date(1038514649000)/",
+	"__metadata": {
+		"uri": "SalesOrderSet('SalesOrderID 5')",
+		"type": "/IWBEP/GWSAMPLE_BASIC.SalesOrder"
+	},
+	"ToBusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 5')/ToBusinessPartner"
+		}
+	},
+	"ToLineItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 5')/ToLineItems"
+		}
+	}
+}, {
+	"SalesOrderID": "SalesOrderID 6",
+	"Note": "Note 6",
+	"NoteLanguage": "NoteLanguage 6",
+	"CustomerID": "CustomerID 6",
+	"CustomerName": "CustomerName 6",
+	"CurrencyCode": "CurrencyCode 6",
+	"GrossAmount": 6942.88,
+	"NetAmount": 4964.26,
+	"TaxAmount": 9917.95,
+	"LifecycleStatus": "LifecycleStatus 6",
+	"LifecycleStatusDescription": "LifecycleStatusDescription 6",
+	"BillingStatus": "BillingStatus 6",
+	"BillingStatusDescription": "BillingStatusDescription 6",
+	"DeliveryStatus": "DeliveryStatus 6",
+	"DeliveryStatusDescription": "DeliveryStatusDescription 6",
+	"CreatedAt": "/Date(1247170649000)/",
+	"ChangedAt": "/Date(1126642649000)/",
+	"__metadata": {
+		"uri": "SalesOrderSet('SalesOrderID 6')",
+		"type": "/IWBEP/GWSAMPLE_BASIC.SalesOrder"
+	},
+	"ToBusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 6')/ToBusinessPartner"
+		}
+	},
+	"ToLineItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 6')/ToLineItems"
+		}
+	}
+}, {
+	"SalesOrderID": "SalesOrderID 7",
+	"Note": "Note 7",
+	"NoteLanguage": "NoteLanguage 7",
+	"CustomerID": "CustomerID 7",
+	"CustomerName": "CustomerName 7",
+	"CurrencyCode": "CurrencyCode 7",
+	"GrossAmount": 2892.81,
+	"NetAmount": 5858.85,
+	"TaxAmount": 1474.16,
+	"LifecycleStatus": "LifecycleStatus 7",
+	"LifecycleStatusDescription": "LifecycleStatusDescription 7",
+	"BillingStatus": "BillingStatus 7",
+	"BillingStatusDescription": "BillingStatusDescription 7",
+	"DeliveryStatus": "DeliveryStatus 7",
+	"DeliveryStatusDescription": "DeliveryStatusDescription 7",
+	"CreatedAt": "/Date(1012940249000)/",
+	"ChangedAt": "/Date(1334780249000)/",
+	"__metadata": {
+		"uri": "SalesOrderSet('SalesOrderID 7')",
+		"type": "/IWBEP/GWSAMPLE_BASIC.SalesOrder"
+	},
+	"ToBusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 7')/ToBusinessPartner"
+		}
+	},
+	"ToLineItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 7')/ToLineItems"
+		}
+	}
+}, {
+	"SalesOrderID": "SalesOrderID 8",
+	"Note": "Note 8",
+	"NoteLanguage": "NoteLanguage 8",
+	"CustomerID": "CustomerID 8",
+	"CustomerName": "CustomerName 8",
+	"CurrencyCode": "CurrencyCode 8",
+	"GrossAmount": 8448.77,
+	"NetAmount": 4051.39,
+	"TaxAmount": 4936.23,
+	"LifecycleStatus": "LifecycleStatus 8",
+	"LifecycleStatusDescription": "LifecycleStatusDescription 8",
+	"BillingStatus": "BillingStatus 8",
+	"BillingStatusDescription": "BillingStatusDescription 8",
+	"DeliveryStatus": "DeliveryStatus 8",
+	"DeliveryStatusDescription": "DeliveryStatusDescription 8",
+	"CreatedAt": "/Date(1096143449000)/",
+	"ChangedAt": "/Date(1140121049000)/",
+	"__metadata": {
+		"uri": "SalesOrderSet('SalesOrderID 8')",
+		"type": "/IWBEP/GWSAMPLE_BASIC.SalesOrder"
+	},
+	"ToBusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 8')/ToBusinessPartner"
+		}
+	},
+	"ToLineItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 8')/ToLineItems"
+		}
+	}
+}, {
+	"SalesOrderID": "SalesOrderID 9",
+	"Note": "Note 9",
+	"NoteLanguage": "NoteLanguage 9",
+	"CustomerID": "CustomerID 9",
+	"CustomerName": "CustomerName 9",
+	"CurrencyCode": "CurrencyCode 9",
+	"GrossAmount": 3060.59,
+	"NetAmount": 5466.93,
+	"TaxAmount": 3915.8,
+	"LifecycleStatus": "LifecycleStatus 9",
+	"LifecycleStatusDescription": "LifecycleStatusDescription 9",
+	"BillingStatus": "BillingStatus 9",
+	"BillingStatusDescription": "BillingStatusDescription 9",
+	"DeliveryStatus": "DeliveryStatus 9",
+	"DeliveryStatusDescription": "DeliveryStatusDescription 9",
+	"CreatedAt": "/Date(1454530649000)/",
+	"ChangedAt": "/Date(1403554649000)/",
+	"__metadata": {
+		"uri": "SalesOrderSet('SalesOrderID 9')",
+		"type": "/IWBEP/GWSAMPLE_BASIC.SalesOrder"
+	},
+	"ToBusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 9')/ToBusinessPartner"
+		}
+	},
+	"ToLineItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 9')/ToLineItems"
+		}
+	}
+}, {
+	"SalesOrderID": "SalesOrderID 10",
+	"Note": "Note 10",
+	"NoteLanguage": "NoteLanguage 10",
+	"CustomerID": "CustomerID 10",
+	"CustomerName": "CustomerName 10",
+	"CurrencyCode": "CurrencyCode 10",
+	"GrossAmount": 3501.28,
+	"NetAmount": 4890.26,
+	"TaxAmount": 8700.91,
+	"LifecycleStatus": "LifecycleStatus 10",
+	"LifecycleStatusDescription": "LifecycleStatusDescription 10",
+	"BillingStatus": "BillingStatus 10",
+	"BillingStatusDescription": "BillingStatusDescription 10",
+	"DeliveryStatus": "DeliveryStatus 10",
+	"DeliveryStatusDescription": "DeliveryStatusDescription 10",
+	"CreatedAt": "/Date(1140121049000)/",
+	"ChangedAt": "/Date(1560370649000)/",
+	"__metadata": {
+		"uri": "SalesOrderSet('SalesOrderID 10')",
+		"type": "/IWBEP/GWSAMPLE_BASIC.SalesOrder"
+	},
+	"ToBusinessPartner": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 10')/ToBusinessPartner"
+		}
+	},
+	"ToLineItems": {
+		"__deferred": {
+			"uri": "SalesOrderSet('SalesOrderID 10')/ToLineItems"
+		}
+	}
+}]
